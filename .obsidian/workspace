@@ -130,10 +130,10 @@
   },
   "active": "8bd0a7c3ec51d876",
   "lastOpenFiles": [
-    "06-Masked Self-Attention 1.md",
-    "06-Masked Self-Attention.md",
     "07-Multi-Head Self-Attention(多头自注意力).md",
+    "06-Masked Self-Attention.md",
     "08-Transformer框架.md",
+    "06-Masked Self-Attention 1.md",
     "img/06-2.png",
     "img/06-1.png",
     "05-Self-Attention(自注意力机制).md",

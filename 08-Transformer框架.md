@@ -61,3 +61,8 @@ FFN（Feed Forward）：w2(（w1x+b1）)+b2
 流程 4
 
 ![](C:\Users\yuan\Desktop\learn\img\08-5.jpg)
+
+
+
+---
+

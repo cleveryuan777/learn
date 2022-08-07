@@ -22,8 +22,8 @@ I have a dream
 
 掩码后 1
 
-![](img/06-1.png)
+![](img/06-1.png).
 
 掩码后 2
 
-![](img/06-2.png)
+![](/img/07-1.png)

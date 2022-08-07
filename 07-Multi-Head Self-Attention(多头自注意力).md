@@ -8,11 +8,11 @@ $Z$ 相比较 $X$有了提升，通过 Multi-Head Self-Attention，得到的 $Z
 
 什么是多头
 
-![](C:\Users\yuan\Desktop\learn\img\07-1.png)
+![](/img/07-1.png)
 
 如何多头 1
 
-![](C:\Users\yuan\Desktop\learn\img\07-2.jpg)
+![](/img/07-2.jpg)
 
 对于 X，我们不是说，直接拿 X 去得到 Z，而是把 X 分成了 8 块（8 头），得到 Z0-Z7
 
@@ -20,11 +20,11 @@ $Z$ 相比较 $X$有了提升，通过 Multi-Head Self-Attention，得到的 $Z
 
 然后把 Z0-Z7 拼接起来，再做一次线性变换（改变维度）得到 Z
 
-![](C:\Users\yuan\Desktop\learn\img\07-3.jpg)
+![](/img/07-3.jpg)
 
 有什么作用？
 
-机器学习的本质是什么：$y=\sigma(wx+b)$，在做一件什么事情，非线性变换（把一个看起来不合理的东西，通过某个手段（训练模型），让这个东西变得合理）
+机器学习的本质是什么：$y=/sigma(wx+b)$，在做一件什么事情，非线性变换（把一个看起来不合理的东西，通过某个手段（训练模型），让这个东西变得合理）
 
 非线性变换的本质又是什么？改变空间上的位置坐标，任何一个点都可以在维度空间上找到，通过某个手段，让一个不合理的点（位置不合理），变得合理
 
@@ -48,4 +48,4 @@ multi-head attention（1231，23，3），把 X 切分成 8 块（8 个子空间
 
 ## 多头流程图
 
-![](C:\Users\yuan\Desktop\learn\img\07-4.jpg)
+![](/img/07-4.jpg)

@@ -1,7 +1,8 @@
 # Attention(注意力机制)
 
-<img title="null" src="file:///C:/Users/yuan/Desktop/learn/img/04-1.png" alt="null" data-align="inline">
 
+
+![](img/04-1.png)
 ## 怎么做注意力？
 
 我（查询对象Q） 这张图（被查询对象 V）
@@ -16,8 +17,9 @@ Q，$K = k_1, k_2, \cdots,k_n,$ 一般使用点乘的方式
 
 进而就找到哪个对于Q而言很重要了
 
-<img title="null" src="file:///C:/Users/yuan/Desktop/learn/img/04-2.png" alt="null" data-align="inline">
 
+
+![](img/04-2.png)
 我们还得进行一个汇总，当你使用 Q 查询结束了后，Q 已经失去了它的使用价值了，我们最终还是要拿到这张图片的，只不过现在的这张图片，它多了一些信息（多了于我而言更重要，更不重要的信息在这里）
 
 V = $(v_1, v_2, \cdots, v_n)$

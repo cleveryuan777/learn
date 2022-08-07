@@ -22,8 +22,8 @@ I have a dream
 
 掩码后 1
 
- <img title="null" src="file:///C:/Users/yuan/Desktop/learn/img/06-1.png" alt="null" data-align="inline">
+![](img/06-1.png)
 
 掩码后 2
 
-<img title="null" src="file:///C:/Users/yuan/Desktop/learn/img/06-2.png" alt="null" data-align="inline">
+![](img/06-2.png)

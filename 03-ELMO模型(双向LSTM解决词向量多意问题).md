@@ -10,8 +10,8 @@
 
 # ELMO
 
-<img title="null" src="file:///C:/Users/yuan/Desktop/learn/img/03-1.png" alt="null" data-align="inline">
 
+![](img/03-1.png)
 ELMo（专门做词向量，通过预训练）
 
 不只是训练一个 Q 矩阵，我还可以把这个次的上下文信息融入到这个 Q 矩阵中

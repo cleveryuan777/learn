@@ -1,7 +1,7 @@
 # Word2vec -->为了的到词向量
 
 
-![](C:\Users\yuan\Desktop\learn\img\01-1.png)
+![](/img/01-1.png)
 
 ## CBOW
 

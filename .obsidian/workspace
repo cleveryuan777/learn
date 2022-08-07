@@ -1,0 +1,141 @@
+{
+  "main": {
+    "id": "a2511b28cc255c6b",
+    "type": "split",
+    "children": [
+      {
+        "id": "8bd0a7c3ec51d876",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "02-预训练模型的下游任务改造.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "da92485d283a1978",
+    "type": "split",
+    "children": [
+      {
+        "id": "7b4048c5812b90bf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6b88f28c29e0b4f0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "e18f61b07fedcd94",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a1887b733e603267",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "29134e13d7055fe1",
+    "type": "split",
+    "children": [
+      {
+        "id": "9ada32b77c05dbce",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "db55796f7c257dcc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "02-预训练模型的下游任务改造.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "dc2252c7871bf4eb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "02-预训练模型的下游任务改造.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "94a08de11282496e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f3d48ec59391d3e5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "02-预训练模型的下游任务改造.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "6b88f28c29e0b4f0",
+  "lastOpenFiles": [
+    "03-ELMO模型(双向LSTM解决词向量多意问题).md",
+    "02-预训练模型的下游任务改造.md",
+    "01-Word2Vec.md",
+    "04-Attention(注意力机制).md",
+    "05-Self-Attention(自注意力机制).md",
+    "06-Masked Self-Attention.md",
+    "Transformer框架.md"
+  ]
+}

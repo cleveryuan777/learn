@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/insertionSort.dir/insertionSort.cpp.o CMakeFiles/insertionSort.dir/quick_sort.cpp.o  -o ../bin/insertionSort 

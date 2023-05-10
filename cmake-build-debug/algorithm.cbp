@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="algorithm"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/root/cpp/learn/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/root/cpp/learn/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="selectionSort">
+				<Option output="/root/cpp/learn/bin/selectionSort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/cpp/learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 selectionSort"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="selectionSort/fast">
+				<Option output="/root/cpp/learn/bin/selectionSort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/cpp/learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 selectionSort/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bubbleSort">
+				<Option output="/root/cpp/learn/bin/bubbleSort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/cpp/learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 bubbleSort"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bubbleSort/fast">
+				<Option output="/root/cpp/learn/bin/bubbleSort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/cpp/learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 bubbleSort/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/root/cpp/learn/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="insertionSort">
+				<Option output="/root/cpp/learn/bin/insertionSort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/cpp/learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 insertionSort"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="insertionSort/fast">
+				<Option output="/root/cpp/learn/bin/insertionSort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/cpp/learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 insertionSort/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="quick_sort">
+				<Option output="/root/cpp/learn/bin/quick_sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/cpp/learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 quick_sort"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="quick_sort/fast">
+				<Option output="/root/cpp/learn/bin/quick_sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/cpp/learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 quick_sort/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/root/cpp/learn/bin/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/cpp/learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/root/cpp/learn/bin/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/cpp/learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="merge_sort">
+				<Option output="/root/cpp/learn/bin/merge_sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/cpp/learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 merge_sort"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="merge_sort/fast">
+				<Option output="/root/cpp/learn/bin/merge_sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/cpp/learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 merge_sort/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rreference">
+				<Option output="/root/cpp/learn/bin/rreference" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/cpp/learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 rreference"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rreference/fast">
+				<Option output="/root/cpp/learn/bin/rreference" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/cpp/learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 rreference/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cpp/learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/root/cpp/learn/bubbleSort.cpp">
+			<Option target="bubbleSort"/>
+		</Unit>
+		<Unit filename="/root/cpp/learn/insertionSort.cpp">
+			<Option target="insertionSort"/>
+		</Unit>
+		<Unit filename="/root/cpp/learn/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/root/cpp/learn/merge_sort.cpp">
+			<Option target="merge_sort"/>
+		</Unit>
+		<Unit filename="/root/cpp/learn/quick_sort.cpp">
+			<Option target="selectionSort"/>
+			<Option target="bubbleSort"/>
+			<Option target="insertionSort"/>
+			<Option target="quick_sort"/>
+			<Option target="main"/>
+			<Option target="merge_sort"/>
+			<Option target="rreference"/>
+		</Unit>
+		<Unit filename="/root/cpp/learn/rreference.cpp">
+			<Option target="rreference"/>
+		</Unit>
+		<Unit filename="/root/cpp/learn/selectionSort.cpp">
+			<Option target="selectionSort"/>
+		</Unit>
+		<Unit filename="/root/cpp/learn/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

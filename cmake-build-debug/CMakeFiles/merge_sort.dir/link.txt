@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/merge_sort.dir/merge_sort.cpp.o CMakeFiles/merge_sort.dir/quick_sort.cpp.o  -o ../bin/merge_sort 

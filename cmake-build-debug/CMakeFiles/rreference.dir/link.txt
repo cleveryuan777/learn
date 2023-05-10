@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/rreference.dir/rreference.cpp.o CMakeFiles/rreference.dir/quick_sort.cpp.o  -o ../bin/rreference 

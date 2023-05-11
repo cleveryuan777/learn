@@ -14,7 +14,7 @@ set(EXECUTABLE_OUTPUT_PATH ${CMAKE_CURRENT_SOURCE_DIR}/bin)
 
 foreach (file ${files})
     get_filename_component(name ${file} NAME_WE)
-    add_executable(${name} ${file})
+    add_executable(${name} ${file} )
 endforeach ()
 
 #add_executable(algorithm ${algorithm_src} main.cpp test1.cpp)

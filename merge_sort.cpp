@@ -8,7 +8,7 @@ void merge(int* a, int low, int mid, int hight)  //合并函数
 {
 	int* b = new int[hight - low + 1];  //用 new 申请一个辅助函数
 	int i = low, j = mid + 1, k = 0;    // k为 b 数组的小标
-	while (i <= mid && j <= hight)  
+	while (i <= mid && j <= hight)
 	{
 		if (a[i] <= a[j])
 		{
@@ -46,7 +46,7 @@ void mergesort(int* a, int low, int hight) //归并排序
 }
 int main()
 {
-	int n, a[100] = {0};
+	int n, a[100] = { 0 };
 	cout << "请输入数列中的元素个数 n 为：" << endl;
 	cin >> n;
 	cout << "请依次输入数列中的元素：" << endl;
@@ -54,7 +54,7 @@ int main()
 	{
 		cin >> a[i];
 	}
-	mergesort(a, 0, n-1);
+	mergesort(a, 0, n - 1);
 	cout << "归并排序结果" << endl;
 	for (int i = 0; i < n; i++)
 	{
